@@ -1,0 +1,121 @@
+{
+    "project": "Customer Support Ticket Classification (Team Batch 10, Project 6)",
+    "selected_model": "Linear SVM (Calibrated)",
+    "grid_search_best_params": {
+        "clf__estimator__C": "1.0",
+        "tfidf__ngram_range": "(1, 1)"
+    },
+    "cv_5fold_macro_f1": {
+        "Multinomial Naive Bayes": {
+            "mean": 0.9942657554678874,
+            "std": 0.007644324587346554,
+            "scores": [
+                1.0,
+                0.9959839357429718,
+                0.9959343547027616,
+                1.0,
+                0.9794104868937041
+            ]
+        },
+        "Logistic Regression": {
+            "mean": 0.9966952264381884,
+            "std": 0.006609547123622983,
+            "scores": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.9834761321909425
+            ]
+        },
+        "Linear SVM (Calibrated)": {
+            "mean": 1.0,
+            "std": 0.0,
+            "scores": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "model_test_comparisons": {
+        "Multinomial Naive Bayes": {
+            "accuracy": 1.0,
+            "precision_macro": 1.0,
+            "recall_macro": 1.0,
+            "f1_macro": 1.0,
+            "f1_weighted": 1.0
+        },
+        "Logistic Regression": {
+            "accuracy": 1.0,
+            "precision_macro": 1.0,
+            "recall_macro": 1.0,
+            "f1_macro": 1.0,
+            "f1_weighted": 1.0
+        },
+        "Linear SVM (Calibrated)": {
+            "accuracy": 1.0,
+            "precision_macro": 1.0,
+            "recall_macro": 1.0,
+            "f1_macro": 1.0,
+            "f1_weighted": 1.0
+        }
+    },
+    "final_test_metrics": {
+        "accuracy": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "total_test_samples": 306,
+        "misclassified_samples": 0
+    },
+    "per_class_metrics": {
+        "Account Access": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 51
+        },
+        "Billing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 52
+        },
+        "General Inquiry": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 49
+        },
+        "Order Issues": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 52
+        },
+        "Refund/Returns": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 51
+        },
+        "Technical Support": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 51
+        }
+    },
+    "categories": [
+        "Account Access",
+        "Billing",
+        "General Inquiry",
+        "Order Issues",
+        "Refund/Returns",
+        "Technical Support"
+    ]
+}

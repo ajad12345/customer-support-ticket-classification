@@ -1,0 +1,25 @@
+CUSTOMER SUPPORT TICKET CLASSIFICATION - FINAL EVALUATION REPORT
+======================================================================
+
+Selected Champion Model: Linear SVM (Calibrated) (Tuned via GridSearchCV)
+Optimal Hyperparameters: {'clf__estimator__C': 1.0, 'tfidf__ngram_range': (1, 1)}
+
+Test Accuracy:         1.0000
+Test Macro Precision:  1.0000
+Test Macro Recall:     1.0000
+Test Macro F1-Score:   1.0000
+Test Weighted F1-Score:1.0000
+
+PER-CLASS CLASSIFICATION REPORT:
+                   precision    recall  f1-score   support
+
+   Account Access     1.0000    1.0000    1.0000        51
+          Billing     1.0000    1.0000    1.0000        52
+  General Inquiry     1.0000    1.0000    1.0000        49
+     Order Issues     1.0000    1.0000    1.0000        52
+   Refund/Returns     1.0000    1.0000    1.0000        51
+Technical Support     1.0000    1.0000    1.0000        51
+
+         accuracy                         1.0000       306
+        macro avg     1.0000    1.0000    1.0000       306
+     weighted avg     1.0000    1.0000    1.0000       306
