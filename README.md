@@ -7,6 +7,10 @@
 ![NLTK](https://img.shields.io/badge/NLTK-3.10.3-green.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.64.0-red.svg)
 ![Test Macro-F1](https://img.shields.io/badge/Macro--F1-1.0000-brightgreen.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ajad12345/customer-support-ticket-classification&branch=main&mainModule=app.py)
+
+**GitHub Repository:** [https://github.com/ajad12345/customer-support-ticket-classification](https://github.com/ajad12345/customer-support-ticket-classification)  
+**One-Click Streamlit Cloud Deploy:** [Deploy on Streamlit Community Cloud](https://share.streamlit.io/deploy?repository=ajad12345/customer-support-ticket-classification&branch=main&mainModule=app.py)
 
 ---
 
